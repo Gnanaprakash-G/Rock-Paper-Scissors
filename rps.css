@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p-title
+{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.move-icon
+{
+  height: 50px;
+}
+.move-icon-button
+{
+  background-color: transparent;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  cursor: pointer;
+}
+.js-wininfo
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+.rst-btn,.autoplay-btn
+{
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.js-div1
+{
+  display:grid;
+  grid-template-rows: 200px;
+  justify-content: center;
+  align-items: center;
+}
